@@ -9,7 +9,8 @@
             </div>
         </div>
         <footer class="card-footer">
-            <a @click.prevent="handleEditClicked" href="#" class="card-footer-item">Edit</a>
+            <RouterLink :to="`/editNote/${note.id}`" @click.prevent="handleEditClicked" href="#" class="card-footer-item">
+                Edit</RouterLink>
             <a @click.prevent="handleDeleteClicked" href="#" class="card-footer-item">Delete</a>
         </footer>
     </div>
