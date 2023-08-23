@@ -27,3 +27,18 @@ npm run dev
 ```sh
 npm run build
 ```
+
+use these depencdencies if you are unable to run the code 
+  "dependencies": {
+    "@vueuse/core": "^10.3.0",
+    "bulma": "^0.9.4",
+    "pinia": "^2.1.6",
+    "vue": "^3.3.4",
+    "vue-router": "^4.2.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.3.1",
+    "vite": "^4.4.9"
+  }
+  node v18.17.1
+  npm 9.6.7
